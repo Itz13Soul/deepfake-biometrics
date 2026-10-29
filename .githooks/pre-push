@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+bash scripts/secret-scan.sh || { echo "push blocked: possible secret found"; exit 1; }

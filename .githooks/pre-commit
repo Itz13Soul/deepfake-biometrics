@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+bash scripts/secret-scan.sh || { echo "commit blocked: possible secret found"; exit 1; }
