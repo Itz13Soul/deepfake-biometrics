@@ -50,3 +50,11 @@ CLAUDE.md
 __pycache__/
 *.pyc
 .venv/
+
+# never commit personal or test photos
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+!public/**

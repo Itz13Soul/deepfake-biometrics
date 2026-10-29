@@ -2,7 +2,7 @@
 
 Upload a face photo. An Xception network returns the probability that the face is manipulated, shows the exact crop it scored, and makes no decision when the face is too small or blurry. Every result carries the notice: a probability, not proof.
 
-Live: set after deploy.
+Live: https://deepfake-biometrics.vercel.app · Case study: [CASE_STUDY.md](CASE_STUDY.md)
 
 ## Best existing tools and the wedge
 
